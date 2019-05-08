@@ -2,16 +2,15 @@ _from = {'a':[0,1], 'b':[2,3], 'c':[4,5]}
 
 _to=[]
 
-len_v=len(list(_from.values())[0])
+len_v=len(list(_from.values()))
+print (len_v)
+#for i in range(len_v):
+ #   buf={}
+  #  for key, val in _from.items():
+   #     buf[key]=list(val)[i]
+    #_to.append(buf)
 
-buf={}
-
-for i in range(len_v):
-    for key, val in _from.items():
-        buf[key]=list(val)[i]
-    _to.append(buf)
-
-print(_to)
+#print(_to)
 
 
 

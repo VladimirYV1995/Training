@@ -7,7 +7,7 @@ len_v=len(list(_from.values())[0])
 for i in range(len_v):
     buf={}
     for key, val in _from.items():
-        buf[key]=list(val)[i]
+        buf[key]=val[i]
     _to.append(buf)
 
 print(_to)

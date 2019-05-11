@@ -9,7 +9,7 @@ vals=_from.values()
 
 
 
-zip_val= list(zip(*vals))
+zip_val= zip(*vals)
 
 for zv in zip_val:
      buf=dict(map(lambda *arg: arg, keys,zv))
@@ -18,7 +18,15 @@ for zv in zip_val:
 print(_to)
 
 
+'''
+Better
 
+_to = [dict(zip(_from,t)) for t in zip(*_from.values())]
+print(_to)
 
+and Dict to  list
 
+v = {k: [dic[k] for dic in LD] for k in LD[0]}
+print(v)
 
+'''

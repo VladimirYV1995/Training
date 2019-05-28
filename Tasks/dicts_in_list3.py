@@ -15,7 +15,7 @@ for zv in zip_val:
      buf=dict(map(lambda *arg: arg, keys,zv))
      _to.append(buf)
 
-print(_to)
+print(zip_val)
 
 
 '''

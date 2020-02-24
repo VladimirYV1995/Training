@@ -1,0 +1,8 @@
+﻿  VMS_v2.cpp
+F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\VMS_v2\VMS_v2.cpp(269,29): warning C4244:  аргумент: преобразование "wchar_t" в "_Elem", возможна потеря данных
+F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\VMS_v2\VMS_v2.cpp(269,29): warning C4244:         with
+F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\VMS_v2\VMS_v2.cpp(269,29): warning C4244:         [
+F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\VMS_v2\VMS_v2.cpp(269,29): warning C4244:             _Elem=char
+F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\VMS_v2\VMS_v2.cpp(269,29): warning C4244:         ]
+F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\VMS_v2\VMS_v2.cpp(218,23): warning C4101:  tb: неиспользованная локальная переменная
+  VMS_v2.vcxproj -> F:\Юрин Младший\Важное\Работа\Нахабино\Development\VMS_v2\Debug\VMS_v2.exe

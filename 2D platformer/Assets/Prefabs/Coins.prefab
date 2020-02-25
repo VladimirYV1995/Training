@@ -11,7 +11,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7897461363498963571}
   m_Layer: 0
-  m_Name: Coins 1
+  m_Name: Coins
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -125,7 +125,7 @@ PrefabInstance:
     - target: {fileID: 2638815648234393159, guid: 32e4658eaaa708948a11e4f81edf2e30,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.2907925
+      value: -2.26
       objectReference: {fileID: 0}
     - target: {fileID: 2638815648234393159, guid: 32e4658eaaa708948a11e4f81edf2e30,
         type: 3}

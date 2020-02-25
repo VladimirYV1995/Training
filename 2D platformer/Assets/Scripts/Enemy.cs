@@ -6,6 +6,7 @@ public class Enemy : MonoBehaviour
 {
     [SerializeField] private Transform _path;
     [SerializeField] private float _speed;
+
     private Transform[] _points;
     private Transform target;
     private int _currentPoint;
@@ -21,8 +22,7 @@ public class Enemy : MonoBehaviour
     }
     private void Update()
     {
-        target = _points[_currentPoint];
-        
+        target = _points[_currentPoint];        
 
         transform.position = Vector3.MoveTowards(transform.position, target.position, _speed * Time.deltaTime);
         if (transform.position == target.position)
